@@ -1,0 +1,39 @@
+<html>
+ <body>
+    <h1 align="center"> Welcome to HTML login</h1>
+	<p align="center"> &nbsp;</p>
+	<p align="center"> &nbsp;</p>
+
+
+    <form action="/api/signin" method="get" style="text-align: center" >
+        <div>
+            <label for="username">User name:</label>
+            <input type="text" id="username" name="login" placeholder="User name">
+        </div>
+
+        <div>
+            <label for="pass">Password : </label>
+            <input type="password" id="pass" name="password" placeholder="password" > 
+        </div>
+
+        <input type="submit" value="Sign in"></form>
+
+
+ 	<div style="position: absolute; width: 636px; height: 321px; z-index: 1; left: 715px; top: 312px" id="layer1">
+		<b>&gt; To show the values in systemuser table &lt;</b><p><b>
+		<font color="#008000">Open Terminl</font></b></p>
+		<p><font color="#FF0000">root@kali:~#</font> service postgresql start<br>
+		<font color="#FF0000">root@kali:~#</font> sudo -i -u postgres<br>
+		<font color="#FF0000">postgres@kali:~$</font> psql<br>
+		<font color="#FF0000">postgres=#</font> \c application<br>
+		<font color="#FF0000">application=#</font> select * from systemuser;<br>
+&nbsp;</p>
+		<p><br>
+		<b>&gt; To add new user to the table &lt;</b><br>
+		<font color="#FF0000">application=#</font> INSERT INTO systemuser VALUES 
+		(4,'username','password');<br>
+&nbsp;</div>
+
+
+ </body>
+</html>

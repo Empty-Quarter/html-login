@@ -1,0 +1,7 @@
+2019-12-12T22:15:46.960Z	Server started at http://127.0.0.1:8000
+2019-12-12T22:16:35.480Z	Execute /api/signin?login=alnaqbi&password=123123
+2019-12-12T22:16:35.484Z	SELECT * FROM systemuser where login = 'alnaqbi' and password = '123123' with parameters []
+2019-12-12T22:16:35.543Z	Execution time: 59
+2019-12-12T22:16:40.786Z	Execute /api/signin?login=alnaqbi&password=123123
+2019-12-12T22:16:40.786Z	SELECT * FROM systemuser where login = 'alnaqbi' and password = '123123' with parameters []
+2019-12-12T22:16:40.787Z	Execution time: 1
